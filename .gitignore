@@ -8,3 +8,10 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Estado local de ferramentas
+.omc/
+
+# Dados e material do case: o notebook lê os dados pela URL fornecida no case
+data/
+docs/*.pdf

@@ -8,15 +8,14 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
+    "lightgbm>=4.7.0",
     "matplotlib>=3.11.2",
     "numpy>=2.5.3",
     "pandas>=3.0.6",
     "scikit-learn>=1.9.1",
     "seaborn>=0.13.2",
+    "xgboost-cpu>=3.4.1",
 ]
-
-[project.scripts]
-meli = "meli:main"
 
 [build-system]
 requires = ["uv_build>=0.12.17,<0.13.0"]
@@ -24,5 +23,6 @@ build-backend = "uv_build"
 
 [dependency-groups]
 dev = [
+    "ipykernel>=7.4.0",
     "pytest>=9.1.1",
 ]
