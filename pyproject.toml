@@ -1,7 +1,7 @@
 [project]
 name = "meli"
 version = "0.1.0"
-description = "Add your description here"
+description = "Project for the Mercado Livre Fraud model assessment"
 readme = "README.md"
 authors = [
     { name = "Renato Alves", email = "renato.mar.alves@gmail.com" }

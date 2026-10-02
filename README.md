@@ -4,7 +4,7 @@ Avaliação do modelo de fraude que está em produção (champion) e treino de u
 
 ## Onde está cada coisa
 
-- `notebook_principal.ipynb`: o notebook do case, executado do início ao fim e com todas as saídas. É o arquivo a ser avaliado.
+- `meli_assessment.ipynb`: o notebook do case, executado do início ao fim e com todas as saídas. É o arquivo a ser avaliado.
 - `notebooks/rascunhos/`: os notebooks de trabalho (EDA, avaliação do modelo atual e novo modelo) que deram origem ao principal. Podem ter textos e números de versões anteriores.
 - `pyproject.toml` e `uv.lock`: as dependências do projeto.
 
@@ -16,7 +16,7 @@ Avaliação do modelo de fraude que está em produção (champion) e treino de u
 uv sync
 ```
 
-Depois, abra `notebook_principal.ipynb` com o kernel do ambiente do projeto (`.venv`) e execute todas as células. Os dados são lidos da URL fornecida no case, então é preciso ter acesso à internet.
+Depois, abra `meli_assessment.ipynb` com o kernel do ambiente do projeto (`.venv`) e execute todas as células. Os dados são lidos da URL fornecida no case, então é preciso ter acesso à internet.
 
 ## Resultado principal
 
